@@ -3,32 +3,44 @@
 
 #include <string.h>
 
-#define TOTAL_VARIANTS 3 //Total number of variants
+#define TOTAL_VARIANTS 5 //Total number of variants
 
 typedef struct {
     std::string model;
     std::string codename;
 } variant;
 
-static const variant J701F_model = {
-    .model = "SM-J701F",
-    .codename = "j7veltedx"
+static const variant J710F_model = {
+    .model = "SM-J710F",
+    .codename = "j7xeltexx"
 };
 
-static const variant J701M_model = {
-    .model = "SM-J701M",
-    .codename = "j7veltedd"
+static const variant J710FN_model = {
+    .model = "SM-J710FN",
+    .codename = "j7xelte"
 };
 
-static const variant J701MT_model = {
-    .model = "SM-J701MT",
-    .codename = "j7veltekk"
+static const variant J710K_model = {
+    .model = "SM-J710K",
+    .codename = "j7xeltekk"
+};
+
+static const variant J710GN_model = {
+    .model = "SM-J710GN",
+    .codename = "j7xeltedx"
+};
+
+static const variant J710MN_model = {
+    .model = "SM-J710MN",
+    .codename = "j7xelteub"
 };
 
 static const variant *all_variants[TOTAL_VARIANTS] = {
-    &J701F_model,
-    &J701M_model,
-    &J701MT_model,
+    &J710F_model,
+    &J710FN_model,
+    &J710K_model,
+    &J710GN_model,
+    &J710MN_model
 };
 
 #endif // INIT_SEC_H
