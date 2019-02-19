@@ -13,7 +13,7 @@ dalvik.vm.heapmaxfree=8m
 ro.sf.lcd_density=320
 
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
-ro.product.first_api_level=24
+ro.product.first_api_level=23
 
 # Wifi
 wifi.direct.interface=p2p-dev-wlan0

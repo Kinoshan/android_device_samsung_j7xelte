@@ -18,7 +18,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "J7 NXT"
+#define BTM_DEF_LOCAL_NAME   "J7 2016"
 
 #define BLE_VND_INCLUDED    TRUE
 
