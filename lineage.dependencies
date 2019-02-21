@@ -12,7 +12,7 @@
         "target_path": "kernel/samsung/exynos7870"
     },
     {
-        "repository": "android_vendor_samsung",
-        "target_path": "vendor/samsung"
+        "repository": "proprietary_vendor_samsung_j7xelte",
+        "target_path": "vendor/samsung/j7xelte"
     }
 ]
