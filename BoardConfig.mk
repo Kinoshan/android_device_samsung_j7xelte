@@ -31,4 +31,4 @@ TARGET_INIT_VENDOR_LIB := libinit_sec
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
 # Inherit from the proprietary version
--include vendor/samsung/j7velte/BoardConfigVendor.mk
+-include vendor/samsung/j7xelte/BoardConfigVendor.mk
